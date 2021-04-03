@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Home from './components/home';
 import Header from './components/header';
 import About from './components/about';
+import Contact from './components/contact';
 import { UserContext } from './contexts/context';
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
 
           <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About}/>
+          <Route exact path="/contact" component={Contact}/>
+
 
         </UserContext.Provider>
       </Switch>

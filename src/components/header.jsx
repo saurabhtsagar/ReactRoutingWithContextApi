@@ -19,9 +19,9 @@ class Header extends Component {
                             <li className="nav-item">
                                 <span className="nav-link" href="javascripft:void(0)"> <NavLink exact to="/about">About</NavLink></span>
                             </li>
-                            {/* <li className="nav-item">
+                            <li className="nav-item">
                                 <span className="nav-link" href="javascripft:void(0)"><NavLink exact to="/contact">Contact</NavLink></span>
-                            </li> */}
+                            </li>
                         </ul>
                         <form className="d-flex align-items-end">
                             <input className="form-control mr-2" type="search" placeholder="Search" aria-label="Search" />
