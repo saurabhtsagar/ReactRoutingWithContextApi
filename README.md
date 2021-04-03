@@ -5,6 +5,6 @@
 </ul>
 
 <h3><i>IMPORTANT !!! <img src="public/danger.png" alt="img" style="max-width: 54px;position: relative;top: 20px;"> </i></h3>
-<p>
+<p style="color = red">
   <strong>useContext</strong> is a <strong>hook</strong> that <strong>consumes a context</strong> and can only be used in <strong>functional components</strong>.
 </p>
